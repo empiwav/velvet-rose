@@ -38,7 +38,7 @@ body {
 .hero {
     height: 90vh;
     background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
-    url('file:///C:/Users/moran/Pictures/Velvet/file_00000000633871f598a3c05baba84cd8.png');
+    url('images/file_00000000633871f598a3c05baba84cd8.png');
     background-size: cover;
     background-position: center;
     display: flex;
