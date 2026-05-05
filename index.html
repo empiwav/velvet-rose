@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Velvet Rosé</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<!-- NAV -->
+<nav class="nav">
+    <div class="logo">Velvet Rosé</div>
+    <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#productos">Colección</a></li>
+    </ul>
+    <div class="cart-icon" onclick="toggleCart()">🛍️</div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+    <div class="hero-content">
+        <h1>Elegancia que seduce</h1>
+        <p>Nueva colección 2026</p>
+        <a href="#productos"><button class="btn-lux">Descubrir</button></a>
+    </div>
+</section>
+
+<!-- PRODUCTOS -->
+<section id="productos" class="productos">
+    <h2>Colección</h2>
+
+    <div class="grid">
+
+        <div class="card">
+            <img src="images/rosa.jpg">
+            <h3>Conjunto Rosé</h3>
+            <p>$399</p>
+            <button onclick="agregar('Conjunto Rosé',399)">Añadir</button>
+        </div>
+
+        <div class="card">
+            <img src="images/negra.jpg">
+            <h3>Lencería Noir</h3>
+            <p>$450</p>
+            <button onclick="agregar('Lencería Noir',450)">Añadir</button>
+        </div>
+
+        <div class="card">
+            <img src="images/blanco.jpg">
+            <h3>Set Ivory</h3>
+            <p>$420</p>
+            <button onclick="agregar('Set Ivory',420)">Añadir</button>
+        </div>
+
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <p>Velvet Rosé © 2026</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

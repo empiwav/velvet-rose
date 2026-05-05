@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Checkout - Velvet Rosé</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<h1>Finalizar compra</h1>
+
+<div class="checkout">
+
+    <div>
+        <h2>Datos del cliente</h2>
+
+        <input type="text" id="nombre" placeholder="Nombre">
+        <input type="text" id="direccion" placeholder="Dirección">
+        <input type="text" id="tarjeta" placeholder="Tarjeta (fake)">
+    </div>
+
+    <div>
+        <h2>Resumen</h2>
+        <ul id="resumen"></ul>
+        <p>Total: $<span id="total"></span></p>
+
+        <button onclick="pagar()">Pagar</button>
+    </div>
+
+</div>
+
+<script src="checkout.js"></script>
+</body>
+</html>
